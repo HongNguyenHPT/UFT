@@ -46,7 +46,7 @@ WpfWindow("HPE MyFlight Sample Applicatio").WpfTabStrip("WpfTabStrip").Select "S
 WpfWindow("HPE MyFlight Sample Applicatio").WpfRadioButton("byNumberRadio").Set
 WpfWindow("HPE MyFlight Sample Applicatio").WpfEdit("byNumberWatermark").Set order_num
 WpfWindow("HPE MyFlight Sample Applicatio").WpfButton("SEARCH").Click
-WpfWindow("HPE MyFlight Sample Applicatio").WpfEdit("passengerName").Check CheckPoint("passengerName")
+'WpfWindow("HPE MyFlight Sample Applicatio").WpfEdit("passengerName").Check CheckPoint("passengerName")
 
 '---Close
 WpfWindow("HPE MyFlight Sample Applicatio").Close
