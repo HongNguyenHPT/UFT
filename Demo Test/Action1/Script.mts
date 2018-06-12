@@ -10,10 +10,8 @@ int name_L
 name_L = Len(name)
 
 If name_L > 3 Then
-	'MsgBox ("Username dài hơn 3 kí tự")
 	Reporter.ReportEvent micPass, "Check độ dài Username", "Username " & name & " dài "  & name_L & " kí tự"
 ElseIf name_L <= 3 Then
-	'MsgBox ("Username ngắn hơn 3 kí tự")
 	Reporter.ReportEvent micFail, "Check độ dài Username", "Username " & name & " dài "  & name_L & " kí tự"
 End If
 	
